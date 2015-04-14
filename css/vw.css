@@ -1,0 +1,73 @@
+
+body#vw{
+  background: url(../image/vw/bg.png) center no-repeat;
+  height: 11353px;
+}
+
+#vw .event-all{
+  background: url(../image/vw/event-all.png);
+  height: 511px;
+}
+#vw .event-1{
+  background: url(../image/vw/event-1.png) ;
+  height: 975px;
+  cursor: pointer;
+}
+#vw .event-2{
+  background: url(../image/vw/event-2.png) ;
+  height: 635px;
+}
+#vw .event-3{
+  background: url(../image/vw/event-3.png) ;
+  height: 725px;
+  cursor: pointer;
+}
+#vw .event-4{
+  background: url(../image/vw/event-4.png) ;
+  height: 843px;
+}
+#vw .vehicle{
+  background: url(../image/vw/vehicle.png) ;
+  height: 2098px;
+  cursor: pointer;
+}
+#vw .attachment{
+  background: url(../image/vw/attachment.png) ;
+  height: 1479px;
+  cursor: pointer;
+}
+#vw .attachment-1{
+  background: url(../image/vw/attachment-1.png) ;
+  height: 1664px;
+  cursor: pointer;
+}
+#vw .service{
+  background: url(../image/vw/service.png) ;
+  height: 113px;
+}
+
+.img-service{
+  width: 480px;
+  height: 416px;
+  float: left;
+  margin-left: 43px;
+}
+#vw .warranty{
+  background: url(../image/vw/warranty.png);
+  cursor: pointer;
+}
+#vw .examination{
+  background: url(../image/vw/examination.png);
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#vw .platform{
+  float: left;
+  background: url(../image/vw/platform.png);
+  height: 1099px;
+}
+/*悬浮窗*/
+.slidebar{
+  background: url(../image/vw/slidebar.png) no-repeat;
+}

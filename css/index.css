@@ -1,0 +1,267 @@
+
+body{
+	background: url(../image/index.png) center no-repeat;
+	width: 100%;
+	height: 768px;
+}
+/**隐藏文字**/
+a{
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.link-to-vw,.link-to-skoda{
+  width: 268px;
+  height: 358px;
+  position: absolute;
+  top: 308px;
+  left: 50%;
+  margin-left: -373px;
+  cursor: pointer;
+  display: block;
+}
+.link-to-skoda{
+  margin-left: 127px;
+}
+
+section{
+	width: 1080px;
+	margin: 0 auto;
+  padding-top: 795px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -540px;
+}
+
+.img{
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat !important;
+}
+
+.event-all{
+	background: url(../image/vw/event-all.png);
+	height: 511px;
+}
+.event-1{
+	background: url(../image/vw/event-1.png) ;
+	height: 975px;
+  cursor: pointer;
+}
+.event-2{
+	background: url(../image/vw/event-2.png) ;
+	height: 635px;
+}
+.event-3{
+	background: url(../image/vw/event-3.png) ;
+	height: 725px;
+  cursor: pointer;
+}
+.event-4{
+	background: url(../image/vw/event-4.png) ;
+	height: 843px;
+}
+.vehicle{
+	background: url(../image/vw/vehicle.png) ;
+	height: 2098px;
+  cursor: pointer;
+}
+.attachment{
+	background: url(../image/vw/attachment.png) ;
+	height: 1479px;
+  cursor: pointer;
+}
+.attachment-1{
+	background: url(../image/vw/attachment-1.png) ;
+	height: 1664px;
+  cursor: pointer;
+}
+.service{
+	background: url(../image/vw/service.png) ;
+	height: 113px;
+}
+
+.img-service{
+	width: 480px;
+	height: 416px;
+	float: left;
+}
+.warranty{
+	background: url(../image/vw/warranty.png);
+  cursor: pointer;
+}
+.examination{
+	background: url(../image/vw/examination.png);
+	margin-left: 30px;
+  cursor: pointer;
+}
+
+.platform{
+	float: left;
+	background: url(../image/vw/platform.png);
+	height: 1099px;
+}
+
+.platform .link{
+  width: 988px;
+  height: 286px;
+  position: relative;
+  top: 243px;
+  left: 46px;
+  margin: 0px;
+}
+.platform .link a{
+  display: block;
+  float: left;
+  width: 294px;
+  height: 70px;
+  margin: 22px 0px -6px 26px;
+  cursor: pointer;
+}
+
+/*
+	plat是弹出层的平台的选择面板
+*/
+.shade{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #000000;
+	opacity: 0.2;
+  -moz-opacity: 0.2;
+  filter: alpha(opacity=20);
+	width: 100%;
+	height: 100%;
+	display: none;
+  z-index: 9;
+}
+.plat{
+	position: fixed;
+  width: 790px;
+	top: 50%;
+	left: 50%;
+	margin-left: -395px;
+	z-index: 10;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+	display: none;
+}
+.plat.three{
+	height: 250px;
+  margin-top: -125px;
+  background: url(../image/tplat.png);
+
+}
+.plat.six{
+	height: 330px;
+  margin-top: -165px;
+  background: url(../image/splat.png);
+}
+.plat.nine{
+	height: 330px;
+  margin-top: -165px;
+  background: url(../image/nplat.png);
+}
+
+.plat .link{
+  width: 673px;
+  height: 286px;
+  position: relative;
+  top: 101px;
+  left: 64px;
+  margin: 0px;
+}
+.plat .link a{
+  display: block;
+  float: left;
+  width: 175px;
+  height: 40px;
+  margin: 40px 0px -6px 37px;
+  cursor: pointer;
+}
+.plat.nine .link a{
+  margin: 23px 0px -6px 35px;
+}
+
+.plat p.close{
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+/**
+	悬浮窗
+**/
+.slidebar{
+	position: absolute;
+	top: 50px;
+	right: 50%;
+	margin-right: -663px;
+	width: 123px;
+	height: 557px;
+	background: url(../image/vw/slidebar.png) no-repeat;
+}
+.slidebar a{ 
+  display: block;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+}
+
+.slidebar a.event-all-link{
+  height: 50px;
+}
+.slidebar a.event-1-link{
+  height: 76px;
+}
+.slidebar a.event-2-link{
+  height: 45px;
+}
+.slidebar a.event-3-link{
+  height: 67px;
+}
+.slidebar a.event-4-link{
+  height: 62px;
+}
+.slidebar a.vehicle-link,.slidebar a.attachment-link,
+.slidebar a.attachment-1-link,.slidebar a.service-link{
+  height: 37px;
+}
+
+.slidebar a.platform-link{
+  height: 109px;
+}
+
+
+/**内部模块跳转**/
+.link-services{
+  height: 87px;
+  position: relative;
+  top: 716px;
+  opacity: .4;
+  left: 45px;
+}
+.link-services p{
+  width: 87px;
+  height: 87px;
+  display: inline-block;
+  margin: 0;
+  margin-right: 146px;
+  cursor: pointer;
+}
+.link-services p.link-service{
+    margin-left: 47px;
+}
+
+/* 隐藏百度统计icon */
+a[href^='http://tongji.baidu.com'] {
+  display: none;
+}

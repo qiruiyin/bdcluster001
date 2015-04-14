@@ -1,0 +1,84 @@
+body#skoda{
+  background: url(../image/skoda/bg.png) center no-repeat;
+  height: 12036px;
+}
+
+#skoda section{
+  padding-top: 697px;
+}
+
+#skoda .event-all{
+  background: url(../image/skoda/event-all.png);
+  height: 562px;
+}
+#skoda .event-1{
+  background: url(../image/skoda/event-1.png) ;
+  height: 978px;
+  cursor: pointer;
+}
+#skoda .event-2{
+  background: url(../image/skoda/event-2.png) ;
+  height: 635px;
+}
+#skoda .event-3{
+  background: url(../image/skoda/event-3.png) ;
+  height: 732px;
+  cursor: pointer;
+}
+#skoda .event-4{
+  background: url(../image/skoda/event-4.png) ;
+  height: 902px;
+}
+#skoda .vehicle{
+  background: url(../image/skoda/vehicle.png) ;
+  height: 1750px;
+  cursor: pointer;
+}
+#skoda .attachment{
+  background: url(../image/skoda/attachment.png) ;
+  height: 1995px;
+  cursor: pointer;
+}
+#skoda .attachment-1{
+  background: url(../image/skoda/attachment-1.png) ;
+  height: 1991px;
+  cursor: pointer;
+}
+#skoda .service{
+  background: url(../image/skoda/service.png) ;
+  height: 145px;
+}
+
+.img-service{
+  width: 480px;
+  height: 416px;
+  float: left;
+}
+#skoda .warranty{
+  background: url(../image/skoda/warranty.png);
+  width: 945px;
+  height: 354px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#skoda .examination{
+  background: url(../image/skoda/examination.png);
+  width: 945px;
+  height: 354px;
+  margin: 0 auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#skoda .platform{
+  float: left;
+  background: url(../image/skoda/platform.png);
+  height: 934px;
+}
+
+/**
+  悬浮窗
+**/
+#skoda .slidebar{
+  background: url(../image/skoda/slidebar.png) no-repeat;
+}
